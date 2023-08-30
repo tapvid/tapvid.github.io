@@ -1,4 +1,4 @@
-# RoboTAP
+# TAP-Vid
 
 This is the repository that contains source code for the [TAP-Vid website](https://tapvid.github.io).
 
