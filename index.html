@@ -94,10 +94,10 @@
                 <a href="http://people.csail.mit.edu/yusuf/">Yusuf Aytar</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="https://scholar.google.co.uk/citations?user=IUZ-7_cAAAAJ">João Carreira</a><sup>1</sup>
+                <a href="https://scholar.google.co.uk/citations?user=IUZ-7_cAAAAJ">João Carreira</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="https://www.robots.ox.ac.uk/~az/">Andrew Zisserman</a><sup>1,2</sup>
+                <a href="https://www.robots.ox.ac.uk/~az/">Andrew Zisserman</a><sup>1,2</sup>,
               </span>
               <span class="author-block">
                 <a href="https://yangyi02.github.io">Yi Yang</a><sup>1</sup>
@@ -106,7 +106,7 @@
 
             <div class="is-size-5 publication-authors">
               <span class="author-block"><sup>1</sup>Google DeepMind,</span>
-              <span class="author-block"><sup>2</sup>VGG, Department of Engineering Science, University of Oxford</span>
+              <span class="author-block"><sup>2</sup>VGG, University of Oxford</span>
             </div>
 
             <div class="column has-text-centered">
@@ -440,68 +440,66 @@
                   spatially consistent tracks, and also speeds up the annotation process by over 40%, aiding and
                   simplifying the annotation effort substantially.
                 </p>
-              </div>
-              <table>
+              </div>            
+              <table style="width: 100%; border-collapse: collapse; border-spacing: 0;">
                 <tr>
-                  <td style="text-align:center"><b>Without flow tracker assist</b></td>
-                  <td style="text-align:center"><b>With flow tracker assist</b></td>
+                  <td style="text-align:center; padding: 10px 0;"><b>Without flow tracker assist</b></td>
+                  <td style="text-align:center; padding: 10px 0;"><b>With flow tracker assist</b></td>
                 </tr>
                 <tr>
-                  <td COLSPAN=2>
-                    <video width="1024" controls autoplay>
-                      <source
-                        src="https://storage.googleapis.com/dm-tapnet/content/flow_tracker_comparison/blackswan.mp4"
-                        type="video/mp4">
+                  <td colspan="2" style="padding: 0; text-align: center; padding-bottom: 20px;">
+                    <video width="1024" controls autoplay style="display: block; margin: 0 auto;">
+                      <source src="https://storage.googleapis.com/dm-tapnet/content/flow_tracker_comparison/blackswan.mp4" type="video/mp4">
                     </video>
-                    <p style="width:100%">Note the high-frequency jitter for the points on the swan's back and neck that
-                      occurs without assitance from optical flow.</p>
+                    <p style="margin: 0; padding-top: 10px; width: 100%; text-align: center;">
+                      Note the high-frequency jitter for the points on the swan's back and neck that occurs without assistance from optical flow.
+                    </p>
                   </td>
                 </tr>
                 <tr>
-                  <td style="text-align:center"><b>Without flow tracker assist</b></td>
-                  <td style="text-align:center"><b>With flow tracker assist</b></td>
+                  <td style="text-align:center; padding: 10px 0;"><b>Without flow tracker assist</b></td>
+                  <td style="text-align:center; padding: 10px 0;"><b>With flow tracker assist</b></td>
                 </tr>
                 <tr>
-                  <td COLSPAN=2>
-                    <video width="1024" controls autoplay>
-                      <source src="https://storage.googleapis.com/dm-tapnet/content/flow_tracker_comparison/camel.mp4"
-                        type="video/mp4">
+                  <td colspan="2" style="padding: 0; text-align: center; padding-bottom: 20px;">
+                    <video width="1024" controls autoplay style="display: block; margin: 0 auto;">
+                      <source src="https://storage.googleapis.com/dm-tapnet/content/flow_tracker_comparison/camel.mp4" type="video/mp4">
                     </video>
-                    <p style="width:100%">Camera shake is particularly problematic, but optical flow compensates very
-                      well. It's almost unnoticeable when the flow interpolation is used, but without it, the points
-                      jump visibly three-quarters of the way through the video.</p>
+                    <p style="margin: 0; padding-top: 10px; width: 100%; text-align: center;">
+                      Camera shake is particularly problematic, but optical flow compensates very well. It's almost unnoticeable when the flow interpolation is used, but without it, the points jump visibly three-quarters of the way through the video.
+                    </p>
                   </td>
                 </tr>
                 <tr>
-                  <td style="text-align:center"><b>Without flow tracker assist</b></td>
-                  <td style="text-align:center"><b>With flow tracker assist</b></td>
+                  <td style="text-align:center; padding: 10px 0;"><b>Without flow tracker assist</b></td>
+                  <td style="text-align:center; padding: 10px 0;"><b>With flow tracker assist</b></td>
                 </tr>
                 <tr>
-                  <td COLSPAN=2>
-                    <video width="1024" controls autoplay>
-                      <source
-                        src="https://storage.googleapis.com/dm-tapnet/content/flow_tracker_comparison/horsejump-high.mp4"
-                        type="video/mp4">
+                  <td colspan="2" style="padding: 0; text-align: center; padding-bottom: 20px;">
+                    <video width="1024" controls autoplay style="display: block; margin: 0 auto;">
+                      <source src="https://storage.googleapis.com/dm-tapnet/content/flow_tracker_comparison/horsejump-high.mp4" type="video/mp4">
                     </video>
-                    <p style="width:100%">The flow tracker remains consistent even with fast motions, greatly improving
-                      the precision of the points on the horse's saddle.</p>
+                    <p style="margin: 0; padding-top: 10px; width: 100%; text-align: center;">
+                      The flow tracker remains consistent even with fast motions, greatly improving the precision of the points on the horse's saddle.
+                    </p>
                   </td>
                 </tr>
                 <tr>
-                  <td style="text-align:center"><b>Without flow tracker assist</b></td>
-                  <td style="text-align:center"><b>With flow tracker assist</b></td>
+                  <td style="text-align:center; padding: 10px 0;"><b>Without flow tracker assist</b></td>
+                  <td style="text-align:center; padding: 10px 0;"><b>With flow tracker assist</b></td>
                 </tr>
                 <tr>
-                  <td COLSPAN=2>
-                    <video width="1024" controls autoplay>
-                      <source src="https://storage.googleapis.com/dm-tapnet/content/flow_tracker_comparison/india.mp4"
-                        type="video/mp4">
+                  <td colspan="2" style="padding: 0; text-align: center; padding-bottom: 20px;">
+                    <video width="1024" controls autoplay style="display: block; margin: 0 auto;">
+                      <source src="https://storage.googleapis.com/dm-tapnet/content/flow_tracker_comparison/india.mp4" type="video/mp4">
                     </video>
-                    <p style="width:100%">Again the flow tracker is useful in compensating for camera motion and zoom.
+                    <p style="margin: 0; padding-top: 10px; width: 100%; text-align: center;">
+                      Again the flow tracker is useful in compensating for camera motion and zoom.
                     </p>
                   </td>
                 </tr>
               </table>
+              
             </div>
           </div>
         </div>
@@ -524,8 +522,6 @@
         </div>
       </div>
 
-
-
       <div class="columns is-centered">
         <div class="column is-full-width">
           <h2 class="title is-3">Related Links</h2>
@@ -535,12 +531,14 @@
                 Occlusions Using Point Trajectories</a> propose Persistent Independent Particles (PIPs), a new particle
               video method that tracks any pixel over time.
             </p>
+            <p>
+              <a href="https://github.com/google-research/kubric">Kubric: A scalable dataset generator</a> is a data generation pipeline for creating semi-realistic synthetic multi-object videos with rich annotations such as instance segmentation masks, depth maps, and optical flow.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
 
   <footer class="footer">
     <div class="container">
